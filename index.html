@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hangout Today</title>
+  <style>
+    body {
+      background-color: #f1f1f1;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 300px;
+    }
+
+    .box {
+      width: 150px;
+      height: 100px;
+      margin: 0 10px;
+      text-align: center;
+      line-height: 100px;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .box.yess {
+      background-color: red;
+    }
+
+    .box.hell-yess {
+      background-color: blue;
+    }
+  </style>
+</head>
+<body>
+  <h1>DO YOU WANNA HANGOUT TODAY!!!</h1>
+  <div class="container">
+    <a href="page1.html" class="box yess">Yess</a>
+    <a href="page2.html" class="box hell-yess">Hell YESS!!</a>
+  </div>
+</body>
+</html>
